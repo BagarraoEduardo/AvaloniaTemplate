@@ -21,6 +21,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions/" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Core/AvaloniaTemplate.Core.Application/AvaloniaTemplate.Core.Application.csproj" />
+    <ProjectReference Include="../../Infraestructure/AvaloniaTemplate.Infraestructure.Integration/AvaloniaTemplate.Infraestructure.Integration.csproj" />
   </ItemGroup>
 </Project>
