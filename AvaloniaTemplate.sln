@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplate.Testing.In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTemplate.Testing.UnitTests", "Testing\AvaloniaTemplate.Testing.UnitTests\AvaloniaTemplate.Testing.UnitTests.csproj", "{4F52CF39-E983-471E-BC89-12932120EA0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaMvvmTemplate", "Presentation\AvaloniaMvvmTemplate\AvaloniaMvvmTemplate.csproj", "{6C470976-5184-4AD7-BACF-5FE12BC6874A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{4F52CF39-E983-471E-BC89-12932120EA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F52CF39-E983-471E-BC89-12932120EA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F52CF39-E983-471E-BC89-12932120EA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C470976-5184-4AD7-BACF-5FE12BC6874A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C470976-5184-4AD7-BACF-5FE12BC6874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C470976-5184-4AD7-BACF-5FE12BC6874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C470976-5184-4AD7-BACF-5FE12BC6874A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D36B0702-1ABF-4A18-AE1F-AECC543A10E9} = {D533ECF7-DFB6-48C9-9258-224A15078F61}
@@ -64,5 +70,6 @@ Global
 		{54A912C0-B3E2-4049-9823-8E1EF1ABF19C} = {E96847C4-D477-4D37-AB9B-CA891764A2A5}
 		{94381333-36F3-423E-A033-54DB28F799CB} = {F3E17A0F-8C17-48CD-84FE-C22D0898FBE3}
 		{4F52CF39-E983-471E-BC89-12932120EA0B} = {F3E17A0F-8C17-48CD-84FE-C22D0898FBE3}
+		{6C470976-5184-4AD7-BACF-5FE12BC6874A} = {D533ECF7-DFB6-48C9-9258-224A15078F61}
 	EndGlobalSection
 EndGlobal
